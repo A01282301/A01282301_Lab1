@@ -1,0 +1,129 @@
+body{
+  background-color: #c0c0c0;
+
+}
+
+
+ul {
+  list-style : none;
+  margin : 0;
+  padding : 0;
+  background-color: white;
+  color: black;
+  overflow : auto;
+}
+
+ul> li.menu{
+  float  :  left;
+  padding : 20px;
+}
+
+
+ul> li.menu:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #00ad5f;
+}
+
+ul> li {
+  background-color: #a8c7bb;
+  color: white;
+}
+
+
+div {
+  margin: 10px auto;
+  border-collapse: colapse;
+}
+
+div.presentation-Card {
+  background-color: #003b6f;
+  color : white;
+  padding : 15px 35px;
+  border-collapse: colapse;
+
+}
+
+p.content{
+  background-color: #c0c0c0;
+}
+
+
+
+div.AditionalInfo{
+  margin: auto;
+  width: 50%;
+  border : 3px dashed #EEEEEE;
+  color: #999999
+  padding : 15px 35px;
+  border-collapse: colapse;
+
+}
+
+div.Experience{
+  margin: auto;
+  width: 50%;
+  border : 3px dashed black;
+  color: #999999
+  padding : 15px 35px;
+  border-collapse: colapse;
+
+}
+
+
+div.Objective{
+  margin: auto;
+  width: 50%;
+  border : 3px dashed black;
+  color: #999999
+  padding : 15px 35px;
+}
+
+
+div.Interests{
+  margin: auto;
+  width: 50%;
+  border : 3px dashed black;
+  color: #999999
+  padding : 15px 35px;
+}
+
+div.Experience > p{
+  background-color: #7AF5c6;
+  margin: auto;
+  padding : 5px 35px;
+}
+
+div.Interests > p{
+  background-color: #7AF5c6;
+  margin: auto;
+  padding : 5px 35px;
+}
+
+div.Education > p{
+  background-color: #7AF5c6;
+  margin: auto;
+  padding : 5px 35px;
+}
+
+
+div.Objective > p.objectivetitle{
+  background-color: #7AF5c6;
+  margin: auto;
+  padding : 5px 35px;
+}
+
+div.Education{
+
+  margin: auto;
+  width: 50%;
+  border : 3px dashed black;
+  color: #999999
+  padding : 15px 35px;
+}
+
+footer{
+  margin: auto;
+  width: 50%;
+  padding : 15px 35px;
+}

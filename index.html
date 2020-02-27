@@ -2,6 +2,7 @@
 
 <html>
   <head>
+    <link rel="stylesheet" type= "text/css" href="css/index.css">
     <style>
     h1 {text-align:center;}
 
@@ -13,12 +14,24 @@
     <meta charset="utf-8"/>
     </head>
     <body>
-      <div> <!---div is for html!--->
-        <nav>
-          <a href="./index.html"> CV </a>
-          <a href="./404.html"> Media </a>
 
-        </nav>
+      <div>
+        <nav>
+                   <ul>
+                     <li class="menu">
+                       <a href='./index.html'>
+                         Home
+                       </a>
+                     </li>
+                     <li class="menu">
+                       <a href='./404.html'>
+                         About
+                       </a>
+                     </li>
+                   </ul>
+               </nav>
+             </div>
+       <div class = presentation-Card> <!---div is for html!--->
 
         <h1>
           Mario M. Roque
@@ -27,38 +40,40 @@
         <p style="text-align:center"> 812-203-2530 </p>
 
       </div>
+
+
+
       <section>
 
-        <div>
-            <p> <b>Objective </b> <p>
-
+        <div class = Objective>
+            <p class = objectivetitle> <b>Objective </b> <p>
           <!---  <p> <b>Objective </b><p>--->
           <p> A position on Hardware design on an international known company </p>
         </div>
 
-        <div>
+        <div class = Experience>
         <p> <b>Experience </b> <p>
           <ul>
           <li>Jan 2020 - Present </li>
-            <p> Embedded software Intern, John Deere. Duties include programming algorithms or functions for tractors with CAN comunication and other products of the company </p>
+            <p class = content> Embedded software Intern, John Deere. Duties include programming algorithms or functions for tractors with CAN comunication and other products of the company </p>
           <li> Jan 2019 - Dec 2019 </li>
-            <p> Systems Intern at Tec de Monterrey. Duties include Documentation, Technical Support, Testing, and Quality Assurance on a national level platform. </p>
+            <p class = content> Systems Intern at Tec de Monterrey. Duties include Documentation, Technical Support, Testing, and Quality Assurance on a national level platform. </p>
           </ul>
         </div>
 
-        <div>
+        <div class = Education>
         <p> <b> Education </b> <p>
           <ul>
           <li>Aug 2016 - Present </li>
-            <p> B.S. Digital Systems and Robotics Engineering from Instituto Tecnológico y de Estudios Superiores de Monterrey </p>
+            <p class = content> B.S. Digital Systems and Robotics Engineering from Instituto Tecnológico y de Estudios Superiores de Monterrey </p>
 
           <li>Jan 2019 - Present </li>
-              <p> Intelligent systems Minor in Science from Instituto Tecnológico y de Estudios Superiores de Monterrey </p>
+              <p class = content> Intelligent systems Minor in Science from Instituto Tecnológico y de Estudios Superiores de Monterrey </p>
           </ul>
         </div>
 
 
-        <div>
+        <div class = Interests>
         <p> <b> Interests </b> <p>
           <ol>
           <p> Interest are listed below in priority order </p>
@@ -72,7 +87,7 @@
 
         </div>
         <footer>
-
+        <div class = AditionalInfo> <!---div is for html!--->
         <address>
         Aditional contact information:
         <div>
@@ -81,11 +96,12 @@
         <div>
         Linkedin account <a href="linkedin.com/in/marioroquechairez/"> <span style="color: Navy;" <p style="text-align:center"> Linkedin Page  </p> </span> </a>
        </div>
+     </div>
         </address>
   <footer>
-    Developed by Mario Roque on HTML
-  </footer>
          <img src="./src/images/Tec.png" alt="None"/>
+      <p>   Developed by Mario Roque on HTML </p>
+  </footer>
 
       </section>  <!---div is for html5!--->
     </body>
