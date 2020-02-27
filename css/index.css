@@ -1,5 +1,5 @@
 body{
-  background-color: #c0c0c0;
+  background-color: #white;
 
 }
 
@@ -120,6 +120,13 @@ div.Education{
   border : 3px dashed black;
   color: #999999
   padding : 15px 35px;
+}
+
+@media (max-width:900px){
+    footer >  img{
+        height: auto;
+        max-width:90%;
+        }
 }
 
 footer{
